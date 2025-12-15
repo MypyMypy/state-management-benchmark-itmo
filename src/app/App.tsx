@@ -6,7 +6,7 @@ import { ReduxProvider } from "@/app/providers/store";
 import { PerfPanel } from "@/widgets/perf/ui/PerfPanel";
 
 export const App: React.FC = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={import.meta.env.VITE_BASE_PATH}>
     <ReduxProvider>
       <MainLayout>
         <AppRouter />

@@ -10,5 +10,5 @@ export default defineConfig({
     }
   },
   build: { sourcemap: true },
-  base: '/state-management-benchmark-itmo'
+  base: process.env.VITE_BASE_PATH,
 });
