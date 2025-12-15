@@ -1,0 +1,5 @@
+.layout { display: flex; font-family: sans-serif; height: 100%; }
+.nav { display:flex; flex-direction:column; gap:4px; padding:8px; min-width:150px; background:#f5f5f5; }
+.content { flex:1; padding:16px;}
+.nav a { text-decoration:none; }
+.nav a.active { font-weight:bold; }

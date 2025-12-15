@@ -1,0 +1,5 @@
+.layout { display:flex; font-family: sans-serif; height: 100%; }
+.content { flex:1; padding:16px; }
+.content > div {
+  height: 100%;
+}
