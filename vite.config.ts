@@ -13,7 +13,7 @@ const getConfig = ({ mode }: { mode: string }): UserConfig => {
       },
     },
     build: { sourcemap: true },
-    base: env.VITE_BASE_PATH,
+    base: env.VITE_BASE_PATH || "/",
   };
 };
 

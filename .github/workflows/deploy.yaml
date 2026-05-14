@@ -41,6 +41,8 @@ jobs:
         run: npm ci
 
       - name: Build
+        env:
+          VITE_BASE_PATH: /state-management-benchmark-itmo/
         run: npm run build
 
       - name: Setup Pages
